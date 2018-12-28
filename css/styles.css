@@ -15,14 +15,17 @@ body {
 }
 
 .sign-in {
-    width: 69px;
-    height: 16px;
+    width: 80px;
+    height: 38px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    justify-content: space-around;
+    margin-top: 2px;
+    margin-bottom: 2px;
     margin-left: 12px;
     color: #ffffff;
+    background-color: #4cb480;
+    border-radius: 50px;
+    border-width: 0px;
 }
 
 .sign-in img {
