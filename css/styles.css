@@ -134,13 +134,14 @@ body {
     align-content: center;
     margin-top: 21px;
 }
+
 .main-menu ul .active {
     border: 1px solid #4cb480;
     color: #4cb480;
     border-radius: 50px;
     padding: 5px;
     margin-top: 16px;
-  }
+}
 
 .header {
     width: 1450px;
@@ -153,7 +154,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
-    opacity: 0.87;      
+    opacity: 0.87;
     z-index: -1;
 }
 
@@ -275,6 +276,9 @@ body {
     width: 1450px;
     height: 600px;
     background-color: #353a3f;
+    background-image: url('../bgimg.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .testtext {
