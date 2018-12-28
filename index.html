@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-menu">
+
+            <p class="sign-in">
+                <img src="img/icons8-next-page-512.png" alt="">
+                Войти
+            </p>
+
+        </div>
+        <div class=popup-sign-in>
+            <div class=popup-dialog>
+                <div class=popup-content>
+                    <button class=popup-close>&times;</button>
+                    <div class=main-form>
+                        <form class=form action="mailer/smart.php" method=POST id="popup-form">
+                            <input type=login name=login placeholder="Введите логин" required>
+                            <input type=password name=password placeholder="Введите пароль" required>
+                            <button class="button-sign-in">Войти</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="header-text">
+                <h2>Title Of The Page</h2>
+                <h3>Subtitle</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra turpis tristique nisi
+                    laoreet gravida. Sed sed orci ut ante pellentesque efficitur id ac erat. Morbi metus metus, dictum
+                    sed arcu at, interdum porttitor erat.</p>
+                <a href="#">Button</a>
+            </div>
+        </div>
+
+        <div class="services-parent">
+            <div class="services">
+                <h3>Photos</h3>
+                <p>Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit amet
+                    ullamcorper nisl.</p>
+                <a href="#">Button</a>
+            </div>
+            <div class="services">
+                <h3>Videos</h3>
+                <p>Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit amet
+                    ullamcorper nisl.</p>
+                <a href="#">Button</a>
+
+            </div>
+            <div class="services">
+                <h3>Downloads</h3>
+                <p>Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit amet
+                    ullamcorper nisl.</p>
+                <a href="#">Button</a>
+
+            </div>
+
+        </div>
+
+        <div class="testimonial">
+            <div class="testtext">
+                <p>In hac habitasse platea dictumst. Phasellus finibus ipsum enim, non pretium massa mattis non.
+                    Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio mollis tempus!</p>
+                <h5>Jim Gordon (GCPD)</h5>
+            </div>
+        </div>
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+
+</html>
