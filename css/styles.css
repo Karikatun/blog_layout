@@ -45,23 +45,12 @@ body {
     background-color: #ffffff;
     padding: 1.5rem;
     margin-bottom: 2.5rem;
-    width: 438px;
-    color: inherit;
-    resize: none;
-}
-.popup-sign-in .form textarea {
-    border: none;
-    border-radius: 50px;
-    background-color: #ffffff;
-    padding: 1.5rem;
-    margin-bottom: 2.5rem;
-    width: 438px;
+    width: 512px;
     color: inherit;
     resize: none;
 }
 
-.popup-sign-in .form input::placeholder,
-.popup-sign-in .form textarea::placeholder {
+.popup-sign-in .form input::placeholder {
     color: black;
     text-align: center;
 }
