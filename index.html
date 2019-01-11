@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel=stylesheet href=css/animate.css> </head> <body>
+    <link rel=stylesheet href="css/animate.css"> 
+</head> 
+
+<body>
     <div class="container">
         <div class="top-menu">
             <button class="sign-in">
@@ -45,55 +48,87 @@
 
         <div class="main-menu">
             <ul class="portfolio-menu">
-                <li class="main active">Главная</li>
-                <li class="about">О себе</li>
-                <li class="news">Новости</li>
+                <li class="header-tab active">Главная</li>
+                <li class="header-tab">О себе</li>
+                <li class="header-tab">Новости</li>
             </ul>
         </div>
 
-        <div class="services-parent">
-            <button class="main-slider-btn main-prev-btn">
-                <img src="img/icons8-prev-50.png">
-            </button>
-            <button class="main-slider-btn main-next-btn">
-                <img src="img/icons8-right-button-50.png">
-            </button>
+        <div class="tabcontent">
+            <div class="services-parent">
+                <button class="main-slider-btn main-prev-btn">
+                    <img src="img/icons8-prev-50.png">
+                </button>
+                <button class="main-slider-btn main-next-btn">
+                    <img src="img/icons8-right-button-50.png">
+                </button>
 
-            <div class="services">
-                <div class="services-text">
-                    <h3>Индивидуальная консультация</h3>
-                    
+                <div class="services">
+                    <div class="services-text">
+                        <h3>Индивидуальная консультация</h3>
+
+                    </div>
+
+                    <img src="img/personal.png" alt="">
+                </div>
+                <div class="services">
+                    <div class="services-text">
+                        <h3>Семейная консультация</h3>
+
+                    </div>
+
+                    <img src="img/family1.png" alt="">
+                </div>
+                <div class="services">
+                    <div class="services-text">
+                        <h3>Тренинги</h3>
+
+                    </div>
+
+                    <img src="img/тренинги.png" alt="">
                 </div>
 
-                <img src="img/personal.png" alt="">
             </div>
-            <div class="services">
-                <div class="services-text">
-                    <h3>Семейная консультация</h3>
-                    
+
+            <div class="testimonial">
+                <div class="testtext">
+                    <p>In hac habitasse platea dictumst. Phasellus finibus ipsum enim, non pretium massa mattis non.
+                        Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio mollis tempus!</p>
+                    <h5>Jim Gordon (GCPD)</h5>
                 </div>
-
-                <img src="img/family1.png" alt="">
             </div>
-            <div class="services">
-                <div class="services-text">
-                    <h3>Тренинги</h3>
-                    
-                </div>
-
-                <img src="img/тренинги.png" alt="">
-            </div>
-
         </div>
 
-        <div class="testimonial">
-            <div class="testtext">
-                <p>In hac habitasse platea dictumst. Phasellus finibus ipsum enim, non pretium massa mattis non.
-                    Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio mollis tempus!</p>
-                <h5>Jim Gordon (GCPD)</h5>
+        <div class="tabcontent">
+            <div class="about">
+                В разработке
+            </div>
+            <div class="testimonial">
+                <div class="testtext">
+                    <p>In hac habitasse platea dictumst. Phasellus finibus ipsum enim, non pretium massa mattis non.
+                        Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio mollis tempus!</p>
+                    <h5>Jim Gordon (GCPD)</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabcontent">
+            <div class="news">
+                В разработке
+
+            </div>
+            <div class="testimonial">
+                <div class="testtext">
+                    <p>In hac habitasse platea dictumst. Phasellus finibus ipsum enim, non pretium massa mattis non.
+                        Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio mollis tempus!</p>
+                    <h5>Jim Gordon (GCPD)</h5>
+                </div>
             </div>
         </div>
     </div>
+
+
+
     <script src="dist/bundle.js"></script>
     </body>
 
