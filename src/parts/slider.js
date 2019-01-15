@@ -25,13 +25,15 @@ function Slider() {
     }
 
 
-    prev.addEventListener('click', () => {
+    prev.addEventListener('click', (e) => {
+        e.preventDefault();
         showSlides(slideIndex -= 1);
         slides[slideIndex - 1].classList.replace('fadeInRight', 'fadeInLeft');
 
     });
 
-    next.addEventListener('click', () => {
+    next.addEventListener('click', (e) => {
+        e.preventDefault();
         showSlides(slideIndex += 1);
     });
 

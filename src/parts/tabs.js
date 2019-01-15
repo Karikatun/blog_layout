@@ -6,7 +6,6 @@ function tabs() {
 
     function hideContent(a) {
         for (let i = a; i < tabContent.length; i++) {
-            tabContent[i].classList.remove('show');
             tabContent[i].classList.add('hide');
         }
         for (let i = a; i < tab.length; i++){
@@ -18,12 +17,12 @@ function tabs() {
     function showContent(b) {
         if (tabContent[b].classList.contains('hide')) {
             tabContent[b].classList.remove('hide');
-            tabContent[b].classList.add('show');
         }
         tab[b].classList.add('active');
     }
 
     menu.addEventListener('click', (event) => {
+        event.preventDefault();
         let target = event.target;
         if (target && target.classList.contains('header-tab')) {
             for (let i = 0; i < tab.length; i++) {

@@ -31,6 +31,7 @@ body {
     background-color: #4cb480;
     border-radius: 50px;
     border-width: 0px;
+    outline: 0 !important;
 }
 
 .sign-in img {
@@ -42,6 +43,7 @@ body {
     margin: 0;
     padding-top: 0;
     padding-bottom: 0;
+    outline: 0 !important;
 }
 
 .popup-sign-in .form input {
@@ -53,6 +55,7 @@ body {
     width: 512px;
     color: inherit;
     resize: none;
+    outline: 0 !important;
 }
 
 .popup-sign-in .form input::placeholder {
@@ -85,6 +88,7 @@ body {
     background: transparent;
     color: #ffffff;
     border: none;
+    outline: 0 !important;
 }
 
 .popup-content {
@@ -115,13 +119,13 @@ body {
     align-items: center;
     text-decoration: none;
     margin-top: 35px;
+    outline: 0 !important;
 }
 
 .main-menu {
     width: 1450px;
     height: 60px;
     background-color: #353a3f;
-
 }
 
 .portfolio-menu {
@@ -131,20 +135,40 @@ body {
     align-content: center;
 }
 
-.main-menu li {
+.main-menu button {
     color: #fff;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    margin-top: 21px;
+    width: 130px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #353a3f;
+    border-radius: 50px;
+    border-width: 0px;
+    font-family: "Poppins - Semi Bold";
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    outline: 0 !important;
 }
 
-.main-menu ul .active {
-    border: 1px solid #4cb480;
-    color: #4cb480;
+.portfolio-menu .active {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 130px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #4cb480;
     border-radius: 50px;
-    padding: 5px;
-    margin-top: 16px;
+    border-width: 0px;
+    font-family: "Poppins - Semi Bold";
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    outline: 0 !important;
 }
 
 .header {
@@ -166,17 +190,6 @@ body {
     z-index: -1;
 }
 
-.header img::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1;
-}
-
 .header-text {
     width: 766px;
     display: flex;
@@ -188,12 +201,12 @@ body {
 }
 
 .header-text h2 {
-    font-size: 62px;
-    line-height: 31px;
+    font-size: 60px;
+    line-height: 60px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-top: 233px;
+    margin-top: 145px;
 }
 
 .header-text h3 {
@@ -227,6 +240,7 @@ body {
     padding: 0;
     z-index: 10;
     background-color: transparent;
+    outline: 0 !important;
 }
 
 .main-slider-btn img {
@@ -241,13 +255,14 @@ body {
     width: 1327px;
     height: 632px;
     border-radius: 6px;
-    display: flex;   
+    display: flex;
     justify-content: center;
+    align-content: center;
     padding: 106px 62px 61px;
 }
 
 .services img {
-    top: -167px;
+    top: -358px;
     left: -62px;
     width: 1450px;
     height: 800px;
@@ -255,38 +270,34 @@ body {
     z-index: -1;
 }
 
-.services img::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-}
-
 .services h3 {
+    position: absolute;
     color: #fff;
     font-family: "Poppins - Semi Bold";
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 400;
     line-height: 31.2px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    margin-top: 0px;
 }
 
-.testimonial {
+.services-text {
+    margin-top: 252px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer {
     width: 1450px;
     height: 600px;
     background-color: #353a3f;
-    background-image: url('../bgimg.png');
+    background-image: url('../img/bgimg.png');
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.testtext {
+.footer-text {
     width: 766px;
     display: flex;
     flex-direction: column;
@@ -294,7 +305,7 @@ body {
     margin-top: 0px;
 }
 
-.testtext p {
+.footer-text p {
     color: #ffffff;
     font-family: "Poppins - Light Italic";
     font-size: 28px;
@@ -304,7 +315,7 @@ body {
     margin-top: 209px;
 }
 
-.testtext h5 {
+.footer-text h5 {
     color: #8c9198;
     font-family: Poppins;
     font-size: 20px;
