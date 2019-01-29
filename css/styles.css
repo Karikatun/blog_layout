@@ -173,7 +173,7 @@ body {
 
 .header {
     width: 1450px;
-    height: 965px;
+    height: 915px;
     font-family: Poppins;
 }
 
@@ -183,10 +183,10 @@ body {
 }
 
 .header img {
-    top: -946px;
+    top: 0px;
     width: 1450px;
     height: 965px;
-    position: relative;
+    position: absolute;
     z-index: -1;
 }
 
@@ -196,7 +196,7 @@ body {
     justify-content: left;
     flex-direction: column;
     margin-left: 50px;
-    padding-top: 350px;
+    padding-top: 250px;
     z-index: 10;
     color: #fff;
 }
@@ -263,16 +263,16 @@ body {
 }
 
 .services img {
-    top: -358px;
-    left: -62px;
+    top: 0px;
+    left: 0px;
     width: 1450px;
     height: 800px;
-    position: relative;
+    position: absolute;
     z-index: -1;
 }
 
 .services h3 {
-    position: absolute;
+    position: relative;
     color: #fff;
     font-family: "Poppins - Semi Bold";
     font-size: 50px;
@@ -282,11 +282,47 @@ body {
     letter-spacing: 1.5px;
 }
 
+.services p {
+    color: #ffffff;
+    font-family: "Poppins - Light Italic";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.02px;
+    letter-spacing: 0.42px;
+    margin-top: 0px;
+}
+
 .services-text {
     margin-top: 252px;
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.services-trainings {
+    margin-top: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-trainings button {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 130px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #4cb480;
+    border-radius: 50px;
+    border-width: 0px;
+    font-family: "Poppins - Semi Bold";
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    outline: 0 !important;
 }
 
 .about {
@@ -335,13 +371,13 @@ body {
     font-weight: 400;
     line-height: 38.02px;
     letter-spacing: 0.42px;
-    margin-top: 209px;
+    margin-top: 110px;
 }
 
 .footer-text h5 {
     color: #8c9198;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
     line-height: 30.02px;
     /* Text style for "Jim Gordon" */
@@ -352,7 +388,7 @@ body {
     font-family: "Poppins Light";
     font-weight: 300;
     letter-spacing: 0.5px;
-    margin-top: 78px;
+    margin-top: 30px;
 }
 
 .about {
@@ -361,6 +397,11 @@ body {
 }
 
 .news {
+    width: 1450px;
+    height: 800px;
+}
+
+.training {
     width: 1450px;
     height: 800px;
 }
